@@ -121,7 +121,7 @@ html {
   @media only screen and (max-width: 600px) {
     .list {
       width: 100%;
-      font-size: 1em; } }
+      font-size: .8em; } }
 
 .task-input {
   font-size: 1em;
