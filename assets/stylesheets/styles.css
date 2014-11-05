@@ -142,6 +142,7 @@ html {
       padding: 2%; } }
   @media only screen and (max-width: 600px) {
     .task-input {
+      font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       width: 92%;
       margin-left: 4%;
       margin-right: 4%;
