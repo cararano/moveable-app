@@ -4,11 +4,10 @@
   box-sizing: border-box;
 }
 
-html {
-  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
+// ENTIRE PAGE //
 
 html {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background: url(../images/gradient1.svg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -30,6 +29,8 @@ html {
   }
 }
 
+// TOP NAV //
+
 .header {
   max-width: 1200px;
 }
@@ -40,17 +41,17 @@ html {
   margin-bottom: 2%;
   width: 70%;
 
-    img {
-      max-width: 100%;
-    }
+  img {
+    max-width: 100%;
+  }
 
-    @media only screen and
-    (max-width:600px) {
-      padding-left: 4%;
-      width: 60%;
-      margin-bottom: 4%;
-      margin-top: 2%;
-    }
+  @media only screen and
+  (max-width:600px) {
+    padding-left: 4%;
+    width: 60%;
+    margin-bottom: 4%;
+    margin-top: 2%;
+  }
 }
 
 .nav-bar {
@@ -80,6 +81,8 @@ html {
   }
 
 }
+
+// LIST ITEMS //
 
 .list {
   float: left;
@@ -138,6 +141,15 @@ html {
   }
 }
 
+.description {
+  padding-bottom: 95%;
+  margin-bottom: 1%;
+}
+
+.name {
+  margin-bottom: 3%;
+}
+
 ::-webkit-input-placeholder {
    color: #fff;
 }
@@ -174,6 +186,18 @@ html {
   width: 100%;
   padding: 5%;
   background-color: #fff;
+}
+
+.home-page a:visited {
+  color: #000;
+}
+
+.home-page a:hover {
+  color: dimgray;
+}
+
+.home-page a:active {
+  color: dimgray;
 }
 
 .item:nth-child(2n) {
@@ -216,27 +240,110 @@ html {
 
   img {
     max-width: 80%;
+
+    @media only screen and
+    (max-width:800px) {
+      max-width: 90%;
+    }
+
+    @media only screen and
+    (max-width:600px) {
+      max-width: 70%;
+    }
   }
-
-}
-
-.list-icon img {
-  @media only screen and
-  (max-width:800px) {
-    max-width: 90%;
-  }
-
-  @media only screen and
-  (max-width:600px) {
-    max-width: 70%;
-  }
-
 }
 
 .list-info {
   float: left;
   display: inline;
 }
+
+h1 {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  padding-bottom: 1%;
+  padding-top: 1%;
+
+  @media only screen and
+  (max-width:600px) {
+    padding-bottom: 2%;
+  }
+}
+
+// EDIT ITEM //
+
+.list .item-edit {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.button {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 1.4em;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  color: #fff;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  margin-top: 3%;
+  border-radius: .5em;
+  text-align: center;
+
+  @media only screen and
+  (max-width:1000px) {
+  font-size: 1.6em;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  }
+
+  @media only screen and
+  (max-width:800px) {
+  font-size: 1.6em;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  }
+
+  @media only screen and
+  (max-width:600px) {
+    font-size: 1.7em;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+}
+
+.done {
+  background-color: #2D0151;
+  margin-top:2%;
+}
+
+.delete {
+  background-color: #A84158;
+}
+
+.edit-page a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.edit-page a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.edit-page a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.edit-page a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+// MAP //
 
 .map {
   float:left;
@@ -246,7 +353,7 @@ html {
 
   img {
     max-width: 100%;
-    max-height: 748px;
+    max-height: 743px;
     border-radius: 1em;
   }
 
@@ -289,20 +396,6 @@ html {
     }
   }
 }
-
-h1 {
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
-  font-size: 1.5em;
-  line-height: 1.5em;
-  padding-bottom: 1%;
-  padding-top: 1%;
-
-  @media only screen and
-  (max-width:600px) {
-    padding-bottom: 2%;
-  }
-}
-
 
 .clearfix:before,
 .clearfix:after {
